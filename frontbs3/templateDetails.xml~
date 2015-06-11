@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>frontbs3</name>
+	<version>1.0</version>
+	<creationDate>11/30/2014</creationDate>
+	<author>@ReadyBytes</author>
+	<authorEmail>rakesh@readybytes.net</authorEmail>
+	<copyright>Copyright (C) 20014 RBSL. All rights reserved.</copyright>
+	<description>TPL_FRONTBS3_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+		<folder>site</folder>
+	</files>
+	<positions>
+		<position>header-search</position>
+		<position>main-menu</position>
+		<position>breadcrumbs</position>
+		<position>banner</position>
+		<position>sidebar-left</position>
+		<position>sidebar-right</position>
+		<position>top-a</position>
+		<position>top-b</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>position-a</position>
+		<position>position-b</position>
+		<position>position-c</position>
+		<position>position-d</position>
+		<position>position-e</position>
+		<position>position-f</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_frontbs3.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_frontbs3.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="templateColor" class="" type="color" default="#08C"
+					label="TPL_FRONTBS3_COLOR_LABEL"
+					description="TPL_FRONTBS3_COLOR_DESC" />
+
+				<field name="templateBackgroundColor" class="" type="color" default="#F4F6F7"
+					label="TPL_FRONTBS3_BACKGROUND_COLOR_LABEL"
+					description="TPL_FRONTBS3_BACKGROUND_COLOR_DESC" />
+
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_FRONTBS3_LOGO_LABEL"
+					description="TPL_FRONTBS3_LOGO_DESC" />
+					
+				<field name="sitetitle"  type="text" default=""
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="string" />
+
+				<field name="sitedescription"  type="text" default=""
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					filter="string" />
+
+				<field name="googleFont"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="TPL_FRONTBS3_FONT_LABEL"
+					description="TPL_FRONTBS3_FONT_DESC"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="googleFontName" class="" type="text" default="Open+Sans"
+					label="TPL_FRONTBS3_FONT_NAME_LABEL"
+					description="TPL_FRONTBS3_FONT_NAME_DESC" />
+
+				<field name="fluidContainer"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="TPL_FRONTBS3_FLUID_LABEL"
+					description="TPL_FRONTBS3_FLUID_DESC"
+				>
+					<option value="1">TPL_FRONTBS3_FLUID</option>
+					<option value="0">TPL_FRONTBS3_STATIC</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
