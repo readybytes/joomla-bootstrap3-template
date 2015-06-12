@@ -39,9 +39,9 @@ A plugin named **overrides** which is a system plugin of Joomla, is also used to
 These three core files have overridden and placed into => frontbs3/site/SAMEPATH-AS-THE ACTUAL-PATH
 And the actual path is:
 
-bootstrap.php 	**Path:** libraries/cms/html/bootstrap.php
-icons.php 	**Path:** libraries/cms/html/icon.php
-jquery.php 	**Path:** libraries/cms/html/jquery.php
+1. bootstrap.php 	**Path:** libraries/cms/html/bootstrap.php
+2. icons.php 	**Path:** libraries/cms/html/icon.php
+3. jquery.php 	**Path:** libraries/cms/html/jquery.php
 
 
 So what you need to do
