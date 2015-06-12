@@ -29,7 +29,7 @@ In the template **html folder** you will get the overrides of the following thin
 13. pagination.php
 14. component.php
 
-About Sytem Plugin
+About System Plugin
 --------
 Some hard coding in core file had been done by Joomla! related to html and Bootstrap Classes (like bootstrap accordion and modal popup HTML). And in this template you can use fontAwesome v3.x.
 As the older versions uses class **icon-** but in fontAwesome v3.x icon class's name has been changed from “icon-” to “fa-”.
