@@ -1,15 +1,19 @@
-# Joomla 3 Template Overrides on Bootstrap v3
+# Joomla 3 Template Overrides for Bootstrap v3
 Simplest template overrides for your Joomla! 3.x website to make it compatible to Twitter Bootstrap v3.x
 
-What it included
+What it have
 --------
+
 Bassically, you are seeing two folders 
+
 1. **frontbs3** - Which is a complete template
 2. **overrides** - A system plugin to override three core files of Joomla! (To override some hard coding of Joomla! related to HTML and Bootstrap classes).
 
 Template overrides
 --------
+
 In the template **html folder** you will get the overrides of the following things
+
 1. com_contact
 2. com_content
 3. com_search
@@ -34,6 +38,7 @@ A plugin named **overrides** which is a system plugin of Joomla, is also used to
 
 These three core files have overridden and placed into => frontbs3/site/SAMEPATH-AS-THE ACTUAL-PATH
 And the actual path is:
+
 bootstrap.php 	**Path:** libraries/cms/html/bootstrap.php
 icons.php 	**Path:** libraries/cms/html/icon.php
 jquery.php 	**Path:** libraries/cms/html/jquery.php
@@ -41,7 +46,9 @@ jquery.php 	**Path:** libraries/cms/html/jquery.php
 
 So what you need to do
 --------
+
 If you donot want the full template for your site and want only Bootstrap 3 work for your existig template, then you just need to do followins steps:
+
 1. Copy all files of **html folder** into your existing template's html folder.
 2. Copy the **site folder** of the template and paste it into your template folder.
 3. Fork the **override folder** and make a zip file and install the plugin.
