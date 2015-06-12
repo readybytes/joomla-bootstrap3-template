@@ -8,7 +8,7 @@ Bassically, you are seeing two folders
 2. **overrides** - A system plugin to override three core files of Joomla! (To override some hard coding of Joomla! related to HTML and Bootstrap classes).
 
 Template overrides
-=======
+--------
 In the template **html folder** you will get the overrides of the following things
 1. com_contact
 2. com_content
@@ -26,7 +26,7 @@ In the template **html folder** you will get the overrides of the following thin
 14. component.php
 
 About Sytem Plugin
-=======
+--------
 Some hard coding in core file had been done by Joomla! related to html and Bootstrap Classes (like bootstrap accordion and modal popup HTML). And in this template you can use fontAwesome v3.x.
 As the older versions uses class **icon-** but in fontAwesome v3.x icon class's name has been changed from “icon-” to “fa-”.
 
