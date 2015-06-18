@@ -1,18 +1,18 @@
 # Joomla 3 Template Overrides for Bootstrap v3
-Simplest template overrides for your Joomla! 3.x website to make it compatible to Twitter Bootstrap v3.x
+The Simplest ever template overrides for your Joomla! 3.x website to make it compatible with Twitter Bootstrap v3.x
 
-What it have
+What does it have?
 --------
 
-Bassically, you are seeing two folders 
+It includes two folders :
 
-1. **frontbs3** - Which is a complete template
-2. **overrides** - A system plugin to override three core files of Joomla! (To override some hard coding of Joomla! related to HTML and Bootstrap classes).
+1. **frontbs3** - This is a complete template.
+2. **overrides** - This is a system plugin to override three core files of Joomla! (To override hard coding of Joomla! related to HTML and Bootstrap classes).
 
-Template overrides
+Template Overrides
 --------
 
-In the template **html folder** you will get the overrides of the following things
+In the **root/templates/YOUR_TEMPLATE/html/** you will get the overrides of the following files
 
 1. com_contact
 2. com_content
@@ -29,25 +29,25 @@ In the template **html folder** you will get the overrides of the following thin
 13. pagination.php
 14. component.php
 
-About System Plugin
+System Plugin
 --------
-Some hard coding in core file had been done by Joomla! related to html and Bootstrap Classes (like bootstrap accordion and modal popup HTML). And in this template you can use fontAwesome v3.x.
-As the older versions uses class **icon-** but in fontAwesome v3.x icon class's name has been changed from “icon-” to “fa-”.
+Joomla! uses hard coding related to html and Bootstrap Classes in core files (like bootstrap accordion and modal popup HTML).
+
+In this template you can also use fontAwesome v3.x. As the older versions uses class **icon-** but in fontAwesome v3.x icon class's name has been changed from **"icon-"** to **"fa-"**.
 
 A plugin named **overrides** which is a system plugin of Joomla, is also used to override some core files of Joomla!.
 
-These three core files have overridden and placed into => frontbs3/site/SAMEPATH-AS-THE ACTUAL-PATH
-And the actual path is:
+These three core files are overridden and placed into => frontbs3/site/<SAMEPATH-AS-THE ACTUAL-PATH> And the actual path is:
 
 1. bootstrap.php 	**Path:** libraries/cms/html/bootstrap.php
 2. icons.php 	**Path:** libraries/cms/html/icon.php
 3. jquery.php 	**Path:** libraries/cms/html/jquery.php
 
 
-So what you need to do
+So what you need to do to use this template
 --------
 
-If you donot want the full template for your site and want only Bootstrap 3 work for your existig template, then you just need to do followins steps:
+If you do not want the full template for your site and want only Bootstrap 3 work for your existing template, then you just need to follow below steps:
 
 1. Copy all files of **html folder** into your existing template's html folder.
 2. Copy the **site folder** of the template and paste it into your template folder.
